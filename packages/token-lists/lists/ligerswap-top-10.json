@@ -1,0 +1,97 @@
+{
+  "name": "LigerSwap Top 15",
+  "timestamp": "2022-02-01T00:00:00.000Z",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "logoURI": "https://tokens.ligerswap.org/images/0x888888E8c80e2AeAeccF2e46Be905c20e125A1DB.png",
+  "keywords": [
+    "xliger",
+    "ligerswap",
+    "top 10"
+  ],
+  "tokens": [
+    {
+      "name": "WBNB Token",
+      "symbol": "WBNB",
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.ligerswap.org/images/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.png"
+    },
+    {
+      "name": "Binance Pegged BUSD",
+      "symbol": "BUSD",
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.ligerswap.org/images/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.png"
+    },
+    {
+      "name": "XLiger Token",
+      "symbol": "XLIGER",
+      "address": "0x888888E8c80e2AeAeccF2e46Be905c20e125A1DB",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://tokens.ligerswap.org/images/0x888888E8c80e2AeAeccF2e46Be905c20e125A1DB.png"
+    },
+    {
+      "name": "Cardano Token",
+      "symbol": "ADA",
+      "address": "0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47/logo.png"
+    },
+    {
+      "name": "Dai Token",
+      "symbol": "DAI",
+      "address": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3/logo.png"
+    },
+    {
+      "name": "Polkadot Token",
+      "symbol": "DOT",
+      "address": "0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402/logo.png"
+    },
+    {
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d/logo.png"
+    },
+    {
+      "name": "Wrapped UST Token",
+      "symbol": "UST",
+      "address": "0x23396cF899Ca06c4472205fC903bDB4de249D6fC",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x23396cF899Ca06c4472205fC903bDB4de249D6fC/logo.png"
+    },
+    {
+      "name": "VAI Stablecoin",
+      "symbol": "VAI",
+      "address": "0x4BD17003473389A42DAF6a0a729f6Fdb328BbBd7",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x4BD17003473389A42DAF6a0a729f6Fdb328BbBd7/logo.png"
+    },
+    {
+      "name": "XRP Token",
+      "symbol": "XRP",
+      "address": "0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE/logo.png"
+    }
+  ]
+}

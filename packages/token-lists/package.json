@@ -1,0 +1,45 @@
+{
+  "name": "@xliger/token-lists",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "rm -rf ./dist && rollup -c",
+    "checksum:ls-default": "yarn build && node ./dist checksum ligerswap-default",
+    "generate:ls-default": "yarn test && yarn build && node ./dist generate ligerswap-default",
+    "makelist:ls-default": "yarn checksum:ls-default && yarn generate:ls-default",
+    "checksum:ls-extended": "yarn build && node ./dist checksum ligerswap-extended",
+    "generate:ls-extended": "yarn test && yarn build && node ./dist generate ligerswap-extended",
+    "makelist:ls-extended": "yarn checksum:ss-extended && yarn generate:ls-extended",
+    "checksum:ls-top-10": "yarn build && node ./dist checksum ligerswap-top-10",
+    "generate:ls-top-10": "yarn test && yarn build && node ./dist generate ligerswap-top-10",
+    "makelist:ls-top-10": "yarn checksum:ls-top-15 && yarn generate:ls-top-10",
+    "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
+    "fetch:ls-top-10": "yarn build && node ./dist fetch",
+    "test": "jest",
+    "ci-check": "yarn build && node ./dist ci-check",
+    "token:build": "yarn build"
+  },
+  "dependencies": {
+    "@ethersproject/address": "^5.1.0",
+    "@uniswap/token-lists": "^1.0.0-beta.21",
+    "ajv": "6.12.2",
+    "graphql": "^15.5.0",
+    "graphql-request": "^3.4.0",
+    "slugify": "^1.6.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.14.1",
+    "@babel/preset-typescript": "^7.13.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-typescript": "^8.2.1",
+    "@types/jest": "^26.0.23",
+    "@types/node": "^15.0.2",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3",
+    "rollup": "^2.47.0",
+    "ts-jest": "^26.5.6"
+  }
+}
