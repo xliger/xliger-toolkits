@@ -26,8 +26,7 @@ const PriceLink = styled.a`
 const XLigerPrice: React.FC<Props> = ({ xligerPriceUsd, color = "textSubtle" }) => {
   return xligerPriceUsd ? (
     <PriceLink
-      href="https://ligerswap.org/swap?outputCurrency=0x888888e8c80e2aeaeccf2e46be905c20e125a1db"
-      target="_blank"
+      href="/swap?outputCurrency=0x888888e8c80e2aeaeccf2e46be905c20e125a1db"
     >
       <LogoRound width="24px" mr="8px" />
       <Text color={color} bold>{`$${xligerPriceUsd.toFixed(3)}`}</Text>
