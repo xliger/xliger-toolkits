@@ -1,4 +1,4 @@
-# XLiger Toolkit
+# 🐯 XLiger Toolkit ⚒️
 
 This repository is a monorepo manage with [yarn workspaces](https://classic.yarnpkg.com/en/docs/workspaces/) and [Lerna](https://lerna.js.org/). 
 
