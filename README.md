@@ -4,9 +4,9 @@ This repository is a monorepo manage with [yarn workspaces](https://classic.yarn
 
 ## Packages
 
-- [ligerswap-uikit](https://github.com/xliger/xliger-toolkit/tree/master/packages/ligerswap-uikit) : React components used to build the LigerSwap UI
-- [eslint-config-ligerswap](https://github.com/xliger/xliger-toolkit/tree/master/packages/eslint-config-ligerswap) : An ESLint config for ligerswap, with Typescript and Prettier support
-- [token-lists](https://github.com/xliger/xliger-toolkit/tree/master/packages/token-lists) : Main LigerSwap token list and tools to validate it
+- [ligerswap-uikit](https://github.com/xliger/xliger-toolkits/tree/master/packages/ligerswap-uikit) : React components used to build the LigerSwap UI
+- [eslint-config-ligerswap](https://github.com/xliger/xliger-toolkits/tree/master/packages/eslint-config-ligerswap) : An ESLint config for ligerswap, with Typescript and Prettier support
+- [token-lists](https://github.com/xliger/xliger-toolkits/tree/master/packages/token-lists) : Main LigerSwap token list and tools to validate it
 
 ## How to use
 
